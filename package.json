@@ -1,0 +1,22 @@
+{
+  "name": "graphql-example",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "server": "nodemon --harmony --watch server.js server",
+    "start": "nodemon --harmony --watch index.js index"
+  },
+  "repository": "git@github.com:zen-experiments/graphql-example.git",
+  "author": "dnutels <dmitry.nutels@naturalint.com>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.15.2",
+    "graphql": "^0.9.1",
+    "morgan": "^1.8.1",
+    "request": "^2.81.0",
+    "request-promise": "^4.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  }
+}
